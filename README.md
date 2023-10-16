@@ -62,7 +62,3 @@ O banco de dados `coderhouse.db` contém as seguintes tabelas:
 ### Conclusão
 
 Este projeto demonstra como importar dados de uma API, transformá-los usando a biblioteca pandas, armazená-los em um banco de dados SQLite e enviar notificações ao usuário sobre o status da importação. Certifique-se de ajustar o script conforme necessário para atender aos requisitos específicos do seu projeto.
-
----
-
-**Nota:** Este é um modelo básico de README. Personalize-o conforme as necessidades específicas do seu projeto, adicionando informações sobre configuração, uso, contribuição, entre outros tópicos relevantes.
