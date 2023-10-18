@@ -25,9 +25,6 @@ Este é um projeto Python que importa dados de uma API, realiza transformações
      - **Tabela `corretoras_status`:** Contém informações sobre o status de funcionamento das corretoras.
      - **Tabela `corretoras_patrimonio`:** Contém informações sobre o patrimônio líquido das corretoras, com filtro aplicado para valores acima de 3.000.000.
 
-### ⚙️ Executando os testes
-Explicar como executar os testes automatizados para este sistema.
-
 ### 🔩 Execução do projeto
 Para executar o projeto, você deve ter Python e as bibliotecas mencionadas instaladas. Em seguida, execute o script Python no seu ambiente de desenvolvimento.
 
