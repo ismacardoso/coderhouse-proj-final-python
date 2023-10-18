@@ -1,11 +1,11 @@
-Projeto Final - Python Coderhouse
+### Projeto Final - Python Coderhouse
 Este é um projeto Python que importa dados de uma API, realiza transformações nesses dados usando a biblioteca Pandas e armazena os resultados em um banco de dados SQLite. Além disso, o projeto inclui notificações usando a biblioteca Plyer para informar o usuário sobre o status da importação.
 
-📋 Pré-requisitos
+### 📋 Pré-requisitos
 - **Python 3.x**
 - **Bibliotecas Python:** requests, pandas, sqlite3, Plyer
 
-🔧 Funcionalidades
+### 🔧 Funcionalidades
 
 1. **Importação de Dados:**
    - O script faz uma solicitação GET para a API `https://brasilapi.com.br/api/cvm/corretoras/v1` para obter informações sobre corretoras.
@@ -25,17 +25,17 @@ Este é um projeto Python que importa dados de uma API, realiza transformações
      - **Tabela `corretoras_status`:** Contém informações sobre o status de funcionamento das corretoras.
      - **Tabela `corretoras_patrimonio`:** Contém informações sobre o patrimônio líquido das corretoras, com filtro aplicado para valores acima de 3.000.000.
 
-⚙️ Executando os testes
+### ⚙️ Executando os testes
 Explicar como executar os testes automatizados para este sistema.
 
-🔩 Execução do projeto
+### 🔩 Execução do projeto
 Para executar o projeto, você deve ter Python e as bibliotecas mencionadas instaladas. Em seguida, execute o script Python no seu ambiente de desenvolvimento.
 
 ```bash
 python nome_do_script.py
 ```
 
-⌨️ Estrutura do Banco de Dados
+### ⌨️ Estrutura do Banco de Dados
 O banco de dados `coderhouse.db` contém as seguintes tabelas:
 
 1. **Tabela `corretoras_cadastro`:**
@@ -58,7 +58,7 @@ O banco de dados `coderhouse.db` contém as seguintes tabelas:
    - `CNPJ` (Chave Primária)
    - `Patrimônio Líquido`
 
-✒️ Autores
+### ✒️ Autores
 Ismael Cardoso
 Diego da Silva
 Henrique Berchielli
